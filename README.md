@@ -1,5 +1,11 @@
 # React + TypeScript + Vite
 
+## ⚠️ Important Note: Hash Router & OAuth Limitation
+
+**Failed attempt:** This project initially attempted to use hash router (`HashRouter`) for OAuth callbacks on GitHub Pages. However, this approach does not work because OAuth servers do not allow fragments (`#`) in redirect URIs as per the OAuth 2.0 specification. The authorization server will reject any redirect URI containing a hash fragment.
+
+---
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
