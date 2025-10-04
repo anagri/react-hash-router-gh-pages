@@ -1,0 +1,30 @@
+.navigation {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navigation li {
+  display: inline;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.navigation a:hover {
+  background-color: #e0e0e0;
+}
